@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Whale/3.27.254.15 Safari/537.36" version="24.7.5">
+  <diagram name="페이지-1" id="77O0hQFl2TJiN_ZJtqNX">
+    <mxGraphModel dx="1978" dy="1343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tax0VotC61BmYl9QeiQ4-1" value="시작" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-2" value="Person 클래스로&lt;div&gt;사람 초기화&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-4" value="CoffeeShop로&amp;nbsp;&lt;div&gt;커피숍초기화&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="220" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-8" value="buyCoffee 함수 실행" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="370" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-9" value="money &amp;gt;= 커피값" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="530" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-11" value="남은 돈 출력 및 주문 시작" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="700" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-12" value="구매 불가 출력" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="535" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-13" value="커피숍의 판매 값 증진 및&lt;div&gt;픽업 테이블에 커피 추가&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="860" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-14" value="종료" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1020" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tax0VotC61BmYl9QeiQ4-1" target="tax0VotC61BmYl9QeiQ4-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="410" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="363" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tax0VotC61BmYl9QeiQ4-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="170" as="sourcePoint" />
+            <mxPoint x="373" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="153" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tax0VotC61BmYl9QeiQ4-2" target="tax0VotC61BmYl9QeiQ4-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="400" as="sourcePoint" />
+            <mxPoint x="400" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tax0VotC61BmYl9QeiQ4-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="163" y="320" as="sourcePoint" />
+            <mxPoint x="260" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tax0VotC61BmYl9QeiQ4-8" target="tax0VotC61BmYl9QeiQ4-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="570" as="sourcePoint" />
+            <mxPoint x="400" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259.75" y="630" as="sourcePoint" />
+            <mxPoint x="259.75" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-23" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tax0VotC61BmYl9QeiQ4-20">
+          <mxGeometry x="-0.6" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="580" as="sourcePoint" />
+            <mxPoint x="380" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-22" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tax0VotC61BmYl9QeiQ4-21">
+          <mxGeometry x="-0.1714" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259.75" y="790" as="sourcePoint" />
+            <mxPoint x="259.75" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tax0VotC61BmYl9QeiQ4-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259.75" y="950" as="sourcePoint" />
+            <mxPoint x="259.75" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

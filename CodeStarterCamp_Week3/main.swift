@@ -8,5 +8,5 @@
 
 import Foundation
 
-print("Hello, World!")
-
+missKim.buyCoffee(coffee: .espresso, shop: yagombucks)
+misterLee.buyCoffee(coffee: .cappuccino, shop: yagombucks)

@@ -1,20 +1,12 @@
-코드 스타터 캠프 3주차 미션을 위한 저장소입니다.
+//
+//  step1.swift
+//  CodeStarterCamp_Week3
+//
+//  Created by wodnd on 8/2/24.
+//
 
-1. step1
-“Round3 첫번째 스텝 "타입과 인스턴스의 관계” \
-기능구현 설명입니다.
+import Foundation
 
-## 순서도
-<img width="352" alt="image" src="https://github.com/user-attachments/assets/098868d9-d781-4ab6-948f-2bb76b240861">
-
-
-## 기능구현
-### Person 클래스
-- 돈을 프로퍼티로 초기화 합니다. 
-- buyCoffee함수에 파라미터로 열거형 커피메뉴와 클래스인 커피숍을 설정합니다.
-- Person클래스 내에 있는 돈으로 메뉴를 할수 있는 지 없는지 판별해줍니다.
-- 구매가 가능하면 커피숍의 receiveOrder함수를 실행하게 하며 이는 커피를 만들어주는 함수로 연결하여 줍니다.
-```swift
 class Person {
     var money: Int
     
@@ -34,18 +26,11 @@ class Person {
         }
     }
 }
-```
-### Coffee 열거형
-- 커피메뉴를 열거형으로 정의해줍니다.
-```swift
+
 enum Coffee: String {
     case espresso = "Espresso", americano = "Americano", latte = "Latte", cappuccino = "Cappuccino"
 }
-```
-### CoffeeShop 클래스
-- 판매가, 메뉴, 픽업상황, 바리스타를 초기화 해줍니다.
-- 주문함수가 실행이 될 시 makeCoffee함수가 실행이되어 커피를 제작하며 픽업상황테이블에 추가되고 판매가에 가격이 추가됩니다.
-```swift
+
 class CoffeeShop {
     var sales: Int
     var menu: [Coffee: Int]
@@ -68,4 +53,8 @@ class CoffeeShop {
         self.sales += price
     }
 }
-```
+
+let misterLee = Person(money: 5000)
+let missKim = Person(money: 10000)
+let yagombucksMenu = [Coffee.espresso: 2000, Coffee.americano: 2500, Coffee.latte: 3000, Coffee.cappuccino: 3500]
+let yagombucks = CoffeeShop(sales: 0, menu: yagombucksMenu, barista: misterLee)
